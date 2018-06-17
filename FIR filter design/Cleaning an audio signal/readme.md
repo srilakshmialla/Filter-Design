@@ -1,5 +1,5 @@
 
-#Cleaning up an audio signal
+# Cleaning up an audio signal
 The goal of project is to clean up an audio file that is corrupted by a colored noise and two sinusoids. The methods suggested for spectral analysis is the use of fft or freqz functions in Matlab while the method for filtering is the use of fir1. The ultimate goal is to achieve the cleanest possible version of the provided .wav file while utilizing the aforementioned methods.
 Initially, the signal is loaded into Matlab and the spectrum is analyzed to identify the frequency of the colored noise and annoying sinusoids within the signal. This is achieved by plotting magnitude spectrum of signal versus normalized frequencies using Fast Fourier Transform.
 ## FFT Spectrum
